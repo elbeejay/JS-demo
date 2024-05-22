@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email List Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Email Lists</h1>
+        <form id="email-form">
+            <div class="checkbox-container">
+                <input type="checkbox" id="list1" name="email-list" value="list1">
+                <label for="list1">Email List 1</label>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="list2" name="email-list" value="list2">
+                <label for="list2">Email List 2</label>
+            </div>
+        </form>
+        <br>
+        <div id="selected-emails"></div>
+        <button id="copy-button">Copy</button>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
